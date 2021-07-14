@@ -2,6 +2,7 @@ const User = require('./User');
 const Post = require('./Post');
 const Comment = require('./Comment');
 // routes for user, post, comment
+// modeling scripts in this group be used to send properly structured data to the heroku server
 
 User.hasMany(Post, {
     foreignKey: 'user_id',

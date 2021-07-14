@@ -3,6 +3,7 @@ const express = require("express");
 const session = require("express-session");
 const expresshandlebars = require("express-handlebars");
 const routes = require("./controllers");
+// requires depencies needed to properly send data use handlebars html rendering etc
 
 const sequelize = require("./config/connection");
 const SequelizeStore = require("connect-session-sequelize")(session.Store);

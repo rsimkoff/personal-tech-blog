@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(../images/3D-Wallpapers-Cool-Backgrounds.jpg);
+    /* /* /* background-image:  * will add background image */
 }
 
 .top {
@@ -12,11 +12,11 @@ body {
     align-items: center;
     justify-content: space-around;
     margin: 25px;
-    border: 3px solid black;
+    border: 3px solid whitesmoke;
     border-radius: 10px;
     color: white;
-    background-color: black;
-    background-image: radial-gradient(red, rgb(255, 81, 0));
+    background-color: whitesmoke;
+    background-image: radial-gradient(rgba(0, 255, 255, 0.692), rgba(0, 255, 42, 0.301));
 }
 
 .main {
@@ -24,7 +24,7 @@ body {
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    color: rgb(255, 131, 74);
+    color: rgb(74, 101, 255);
 }
 
 .post-preview {
@@ -34,7 +34,7 @@ body {
     justify-content: space-around;
     margin: 5px;
     background-color: var(--preview-background);
-    border: 2px solid rgb(255, 81, 0);
+    border: 2px solid rgb(0, 102, 255);
     border-radius: 15px;
 }
 
@@ -45,7 +45,7 @@ body {
 .post-meta > p {
     margin-left: 2px;
     margin-right: 2px;
-    border: 0.5px solid rgb(255, 81, 0);
+    border: 0.5px solid rgba(0, 119, 255, 0.363);
     border-radius: 15px;
     padding: 10px;
     justify-self: center;

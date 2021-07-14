@@ -23,3 +23,4 @@ const seedDatabase = async () => {
 };
 
 seedDatabase();
+// script posts seed for both each blog page and the user seed data entered in login
