@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Test Post 1",
+        "body": "post is working."
+    },
+    {
+        "title": "Test Post 2",
+        "body": "test is successful."
+    },
+    {
+        "title": "Test Post 3",
+        "body": "route has been hit."
+    }
+]

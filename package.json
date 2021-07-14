@@ -1,0 +1,39 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "'heroku-deployed-tech-blog'",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config server.js dotenv_config_path=./config.env",
+    "seed": "node -r dotenv/config seeds/seed.js dotenv_config_path=./config.env"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsimkoff/personal-tech-blog.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "Ryan Simkoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsimkoff/personal-tech-blog/issues"
+  },
+  "homepage": "https://github.com/rsimkoff/personal-tech-blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.2.5",
+    "path": "^0.12.7",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "@types/express-session": "^1.17.3"
+  }
+}
