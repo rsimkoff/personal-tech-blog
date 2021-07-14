@@ -1,5 +1,10 @@
 # 14 Model-View-Controller (MVC): Tech Blog
 
+## Developer Description
+
+This deployment is a Heroku hosted Tech Blog focusing on Technology, Finance, and the state of these industries in 2021.  
+Many changes have taken place throughout the year, mainly due to the Coronavirus pandemic, remote work, and industies continuing to digitize their products. Take a look, and see if any of these topics appeal as an interesting read!
+
 ## Your Task
 
 Writing about tech can be just as important as making it. Developers spend plenty of time creating new applications and debugging existing codebases, but most developers also spend at least some of their time reading and writing about technical concepts, recent advancements, and new technologies. A simple Google search for any concept covered in this course returns thousands of think pieces and tutorials from developers of all skill levels!
