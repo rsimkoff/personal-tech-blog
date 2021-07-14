@@ -1,5 +1,6 @@
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
+// sequelize connection to config files
 
 class Comment extends Model {}
 
